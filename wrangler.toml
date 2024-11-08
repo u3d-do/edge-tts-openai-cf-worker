@@ -8,3 +8,8 @@ API_KEY = "abc"
 [dev]
 ip = "0.0.0.0"
 port = 8787
+
+# wrangler.toml (wrangler v3.79.0^)
+[observability]
+enabled = true
+head_sampling_rate = 1
